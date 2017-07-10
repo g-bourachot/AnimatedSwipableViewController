@@ -12,7 +12,6 @@ class ScrollableViewController: UIViewController, UIScrollViewDelegate {
     
     //MARK: - Variables
     private let scrollView = UIScrollView()
-    private var isDragging = false
     private var isAnimatingOnBoarding = false
     
     var showOnBoardingAnimation : Bool = true
@@ -64,14 +63,9 @@ class ScrollableViewController: UIViewController, UIScrollViewDelegate {
         }
     }
     
-    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
-        isDragging = true
-    }
-    
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         let offset = round(targetContentOffset.pointee.x / self.view.bounds.size.width) * self.view.bounds.size.width
         targetContentOffset.pointee.x = offset
-        isDragging = false
     }
     
     //MARK: - Animation function

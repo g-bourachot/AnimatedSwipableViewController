@@ -36,6 +36,7 @@ class PresenterViewController: UIViewController {
         vc.swippingWidthRatio = 0.5
         
         let navigationController = UINavigationController(rootViewController: vc)
+        navigationController.setNavigationBarHidden(true, animated: false)
         self.present(navigationController, animated: true, completion: nil)
     }
 }
