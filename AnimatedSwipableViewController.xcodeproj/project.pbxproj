@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C00BC51F138551001FBDA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C00BC41F138551001FBDA9 /* AppDelegate.swift */; };
+		27C00BCA1F138551001FBDA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C00BC81F138551001FBDA9 /* Main.storyboard */; };
+		27C00BCC1F138551001FBDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C00BCB1F138551001FBDA9 /* Assets.xcassets */; };
+		27C00BCF1F138551001FBDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C00BCD1F138551001FBDA9 /* LaunchScreen.storyboard */; };
+		27C00BDA1F138551001FBDA9 /* AnimatedSwipableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C00BD91F138551001FBDA9 /* AnimatedSwipableViewControllerTests.swift */; };
+		27C00BE71F1385AC001FBDA9 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C00BE61F1385AC001FBDA9 /* ContentViewController.swift */; };
+		27C00BE91F13C427001FBDA9 /* ScrollableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C00BE81F13C427001FBDA9 /* ScrollableViewController.swift */; };
+		27C00BEB1F13CFD8001FBDA9 /* PresenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C00BEA1F13CFD8001FBDA9 /* PresenterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C00BD61F138551001FBDA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C00BB91F138551001FBDA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C00BC01F138551001FBDA9;
+			remoteInfo = testUIageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27C00BC11F138551001FBDA9 /* AnimatedSwipableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedSwipableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C00BC41F138551001FBDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27C00BC91F138551001FBDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27C00BCB1F138551001FBDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27C00BCE1F138551001FBDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27C00BD01F138551001FBDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C00BD51F138551001FBDA9 /* AnimatedSwipableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedSwipableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C00BD91F138551001FBDA9 /* AnimatedSwipableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSwipableViewControllerTests.swift; sourceTree = "<group>"; };
+		27C00BDB1F138551001FBDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C00BE61F1385AC001FBDA9 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		27C00BE81F13C427001FBDA9 /* ScrollableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableViewController.swift; sourceTree = "<group>"; };
+		27C00BEA1F13CFD8001FBDA9 /* PresenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C00BBE1F138551001FBDA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C00BD21F138551001FBDA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C00BB81F138551001FBDA9 = {
+			isa = PBXGroup;
+			children = (
+				27C00BC31F138551001FBDA9 /* AnimatedSwipableViewController */,
+				27C00BD81F138551001FBDA9 /* AnimatedSwipableViewControllerTests */,
+				27C00BC21F138551001FBDA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27C00BC21F138551001FBDA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C00BC11F138551001FBDA9 /* AnimatedSwipableViewController.app */,
+				27C00BD51F138551001FBDA9 /* AnimatedSwipableViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C00BC31F138551001FBDA9 /* AnimatedSwipableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27C00BC41F138551001FBDA9 /* AppDelegate.swift */,
+				27C00BC81F138551001FBDA9 /* Main.storyboard */,
+				27C00BCB1F138551001FBDA9 /* Assets.xcassets */,
+				27C00BCD1F138551001FBDA9 /* LaunchScreen.storyboard */,
+				27C00BD01F138551001FBDA9 /* Info.plist */,
+				27C00BE81F13C427001FBDA9 /* ScrollableViewController.swift */,
+				27C00BEA1F13CFD8001FBDA9 /* PresenterViewController.swift */,
+				27C00BE61F1385AC001FBDA9 /* ContentViewController.swift */,
+			);
+			name = AnimatedSwipableViewController;
+			path = testUIageViewController;
+			sourceTree = "<group>";
+		};
+		27C00BD81F138551001FBDA9 /* AnimatedSwipableViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				27C00BD91F138551001FBDA9 /* AnimatedSwipableViewControllerTests.swift */,
+				27C00BDB1F138551001FBDA9 /* Info.plist */,
+			);
+			name = AnimatedSwipableViewControllerTests;
+			path = testUIageViewControllerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C00BC01F138551001FBDA9 /* AnimatedSwipableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C00BDE1F138551001FBDA9 /* Build configuration list for PBXNativeTarget "AnimatedSwipableViewController" */;
+			buildPhases = (
+				27C00BBD1F138551001FBDA9 /* Sources */,
+				27C00BBE1F138551001FBDA9 /* Frameworks */,
+				27C00BBF1F138551001FBDA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedSwipableViewController;
+			productName = testUIageViewController;
+			productReference = 27C00BC11F138551001FBDA9 /* AnimatedSwipableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C00BD41F138551001FBDA9 /* AnimatedSwipableViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C00BE11F138551001FBDA9 /* Build configuration list for PBXNativeTarget "AnimatedSwipableViewControllerTests" */;
+			buildPhases = (
+				27C00BD11F138551001FBDA9 /* Sources */,
+				27C00BD21F138551001FBDA9 /* Frameworks */,
+				27C00BD31F138551001FBDA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C00BD71F138551001FBDA9 /* PBXTargetDependency */,
+			);
+			name = AnimatedSwipableViewControllerTests;
+			productName = testUIageViewControllerTests;
+			productReference = 27C00BD51F138551001FBDA9 /* AnimatedSwipableViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C00BB91F138551001FBDA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Guillaume Bourachot";
+				TargetAttributes = {
+					27C00BC01F138551001FBDA9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R5DUS2D66C;
+						ProvisioningStyle = Automatic;
+					};
+					27C00BD41F138551001FBDA9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R5DUS2D66C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27C00BC01F138551001FBDA9;
+					};
+				};
+			};
+			buildConfigurationList = 27C00BBC1F138551001FBDA9 /* Build configuration list for PBXProject "AnimatedSwipableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27C00BB81F138551001FBDA9;
+			productRefGroup = 27C00BC21F138551001FBDA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C00BC01F138551001FBDA9 /* AnimatedSwipableViewController */,
+				27C00BD41F138551001FBDA9 /* AnimatedSwipableViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C00BBF1F138551001FBDA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C00BCF1F138551001FBDA9 /* LaunchScreen.storyboard in Resources */,
+				27C00BCC1F138551001FBDA9 /* Assets.xcassets in Resources */,
+				27C00BCA1F138551001FBDA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C00BD31F138551001FBDA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C00BBD1F138551001FBDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C00BE71F1385AC001FBDA9 /* ContentViewController.swift in Sources */,
+				27C00BE91F13C427001FBDA9 /* ScrollableViewController.swift in Sources */,
+				27C00BEB1F13CFD8001FBDA9 /* PresenterViewController.swift in Sources */,
+				27C00BC51F138551001FBDA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C00BD11F138551001FBDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C00BDA1F138551001FBDA9 /* AnimatedSwipableViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C00BD71F138551001FBDA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C00BC01F138551001FBDA9 /* AnimatedSwipableViewController */;
+			targetProxy = 27C00BD61F138551001FBDA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27C00BC81F138551001FBDA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C00BC91F138551001FBDA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27C00BCD1F138551001FBDA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C00BCE1F138551001FBDA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27C00BDC1F138551001FBDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C00BDD1F138551001FBDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C00BDF1F138551001FBDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R5DUS2D66C;
+				INFOPLIST_FILE = testUIageViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gbourachot.AnimatedSwipableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		27C00BE01F138551001FBDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R5DUS2D66C;
+				INFOPLIST_FILE = testUIageViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gbourachot.AnimatedSwipableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		27C00BE21F138551001FBDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R5DUS2D66C;
+				INFOPLIST_FILE = testUIageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gbourachot.testUIageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedSwipableViewController.app/AnimatedSwipableViewController";
+			};
+			name = Debug;
+		};
+		27C00BE31F138551001FBDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R5DUS2D66C;
+				INFOPLIST_FILE = testUIageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gbourachot.testUIageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedSwipableViewController.app/AnimatedSwipableViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C00BBC1F138551001FBDA9 /* Build configuration list for PBXProject "AnimatedSwipableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C00BDC1F138551001FBDA9 /* Debug */,
+				27C00BDD1F138551001FBDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C00BDE1F138551001FBDA9 /* Build configuration list for PBXNativeTarget "AnimatedSwipableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C00BDF1F138551001FBDA9 /* Debug */,
+				27C00BE01F138551001FBDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C00BE11F138551001FBDA9 /* Build configuration list for PBXNativeTarget "AnimatedSwipableViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C00BE21F138551001FBDA9 /* Debug */,
+				27C00BE31F138551001FBDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27C00BB91F138551001FBDA9 /* Project object */;
+}
