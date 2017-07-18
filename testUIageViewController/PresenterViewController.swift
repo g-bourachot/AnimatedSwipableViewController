@@ -34,6 +34,7 @@ class PresenterViewController: UIViewController {
         vc.startingAnimationDelay = 1.0
         vc.halfwayAnimationDelay = 1
         vc.swippingWidthRatio = 0.5
+        vc.startingIndex = 1
         
         let navigationController = UINavigationController(rootViewController: vc)
         navigationController.setNavigationBarHidden(true, animated: false)

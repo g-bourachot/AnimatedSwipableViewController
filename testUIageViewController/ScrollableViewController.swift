@@ -19,10 +19,10 @@ class ScrollableViewController: UIViewController, UIScrollViewDelegate {
     var startingAnimationDelay = 0.0
     var halfwayAnimationDelay = 0.5
     var swippingWidthRatio = 0.3
-    
+    var startingIndex = 0
     
     //MARK: - Life cycle
-    override func loadView() {        
+    override func loadView() {
         self.automaticallyAdjustsScrollViewInsets = false
         scrollView.delegate = self
         scrollView.backgroundColor = UIColor.white
@@ -36,6 +36,7 @@ class ScrollableViewController: UIViewController, UIScrollViewDelegate {
         let width: CGFloat = CGFloat(contentViewControllers.count) * self.view.bounds.size.width
         scrollView.contentSize = CGSize.init(width: width, height: self.view.bounds.size.height)
         layoutViewController(fromIndex: 0, toIndex: 0)
+        self.scroll(to: self.startingIndex, animated: false)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -58,7 +59,7 @@ class ScrollableViewController: UIViewController, UIScrollViewDelegate {
         if isAnimatingOnBoarding {
             DispatchQueue.main.asyncAfter(deadline: .now() + self.halfwayAnimationDelay) {
                 self.isAnimatingOnBoarding = false
-                self.scrollView.setContentOffset(CGPoint.init(x: 0, y: 0), animated: true)
+                self.scroll(to: self.startingIndex, animated: true)
             }
         }
     }
@@ -68,10 +69,18 @@ class ScrollableViewController: UIViewController, UIScrollViewDelegate {
         targetContentOffset.pointee.x = offset
     }
     
-    //MARK: - Animation function
+    //MARK: - Scroll functions
+    private func scroll(to index: Int, animated: Bool){
+        self.scrollView.setContentOffset(CGPoint.init(x: CGFloat(index) * self.view.bounds.size.width, y: 0), animated: animated)
+    }
     
+    //MARK: - Animation function
     func onBoardingAnimation() {
-        self.scrollView.setContentOffset(CGPoint.init(x: 0.2 * self.view.bounds.size.width, y: 0), animated: true)
+        if self.startingIndex == (self.contentViewControllers.count - 1) {
+            self.scrollView.setContentOffset(CGPoint.init(x: (CGFloat(self.startingIndex) - 0.2) * self.view.bounds.size.width, y: 0), animated: true)
+        }else {
+            self.scrollView.setContentOffset(CGPoint.init(x: (CGFloat(self.startingIndex) + 0.2) * self.view.bounds.size.width, y: 0), animated: true)
+        }
         isAnimatingOnBoarding = true
     }
     
