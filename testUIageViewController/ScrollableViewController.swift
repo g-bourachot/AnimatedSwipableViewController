@@ -41,7 +41,7 @@ class ScrollableViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        if showOnBoardingAnimation {
+        if showOnBoardingAnimation && self.contentViewControllers.count > 1{
             DispatchQueue.main.asyncAfter(deadline: .now() + self.startingAnimationDelay) {
                 self.onBoardingAnimation()
             }
